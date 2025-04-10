@@ -1,0 +1,30 @@
+<h1>Welcome Page </h1>
+@php
+    $books = ["one" => "Apple","two" => "banana","three" => "Orange"];
+    $val = "";
+@endphp
+@include('pages.footer',['name' => $books])
+@include('pages.header')
+
+@includeif('pages.content')
+
+@includeWhen(false,'pages.header')
+
+@includeUnless(false,'pages.header')
+
+//footer page
+
+<h1>This is footer</h1>
+
+@foreach ($books as $key => $value)
+<p>{{$key}} . {{$value}}</p>
+@endforeach
+
+@forelse ($books as $key => $value)
+<p>{{$key}} . {{$value}}</p> 
+@empty
+    <p style="color: red">No Value FOund </p>
+@endforelse
+
+//
+<h1>Welcome Header </h1>
