@@ -25,3 +25,20 @@
   - `301` = Permanent (SEO-friendly redirect)
   - `302` = Temporary (default)
 - **Route Groups** using `Route::prefix()` to group related routes under a common URL.
+
+- # Day 03 – Blade Template Basics
+
+## ✅ Topics Covered:
+- Displaying data with `{{ }}` and `{!! !!}`
+- Blade comments and escaping `@`
+- PHP code in `@php` blocks
+- Loops with `@foreach` and `$loop`:
+  - `index`, `first`, `last`
+
+## 🗂 File:
+- `blade-practice.blade.php`: All Blade practice from today
+
+---
+
+Part of my Laravel daily learning journey 🚀
+
