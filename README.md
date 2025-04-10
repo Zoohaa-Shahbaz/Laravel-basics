@@ -40,5 +40,20 @@
 
 ---
 
-Part of my Laravel daily learning journey 🚀
+Part of my Laravel daily learning journey # Day 04 – Blade Include & Conditions
+
+## ✅ Topics Practiced:
+
+- `@include('view')` – Include a Blade view normally.
+- `@include('view', [...])` – Pass data to included view.
+- `@includeIf('view')` – Include only if the view exists.
+- `@includeWhen(condition, 'view')` – Include if condition is true.
+- `@includeUnless(condition, 'view')` – Include if condition is false.
+
+## 🧠 Data Example:
+```php
+$books = ["one" => "Apple", "two" => "Banana", "three" => "Orange"];
+
+
+
 
